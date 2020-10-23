@@ -106,4 +106,4 @@ class ManejoFechasHoras():
 
         diferencia = la_fecha2 -la_fecha1
 
-        return diferencia.seconds  ## diferencia.days
+        return diferencia.seconds + (diferencia.days * 24 * 3600)
