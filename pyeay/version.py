@@ -6,5 +6,5 @@ def version():
 
 	:return:
 	"""
-	la_version = '2020.10.08'
+	la_version = '2020.10.22'
 	return la_version
